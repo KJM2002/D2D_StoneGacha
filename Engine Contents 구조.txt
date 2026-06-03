@@ -1,16 +1,42 @@
 D2D_Engine_JAEMIN
 ├─ Main.cpp
+│
 ├─ Engine
-│  ├─ Core/GameApp.h / .cpp
-│  ├─ Render/D2DRenderer.h / .cpp
-│  ├─ Scene/Scene.h
-│  └─ Object/GameObject.h / .cpp
+│  ├─ Core
+│  │  ├─ GameApp.h
+│  │  └─ GameApp.cpp
+│  │
+│  ├─ Render
+│  │  ├─ D2DRenderer.h
+│  │  └─ D2DRenderer.cpp
+│  │
+│  ├─ Scene
+│  │  └─ Scene.h
+│  │
+│  └─ Object
+│     ├─ GameObject.h
+│     └─ GameObject.cpp
+│
 ├─ Content
-│  ├─ StoneGachaGame.h / .cpp
-│  ├─ Data/GameData.h
-│  ├─ System/GachaSystem.h / .cpp
+│  ├─ StoneGachaGame.h
+│  ├─ StoneGachaGame.cpp
+│  │
+│  ├─ Data
+│  │  └─ GameData.h
+│  │
+│  ├─ System
+│  │  ├─ GachaSystem.h
+│  │  └─ GachaSystem.cpp
+│  │
 │  └─ Scene
-│     ├─ TitleScene.h / .cpp
-│     ├─ PlayScene.h / .cpp
-│     └─ ShopScene.h / .cpp
-└─ Resource/Images
+│     ├─ TitleScene.h
+│     ├─ TitleScene.cpp
+│     ├─ PlayScene.h
+│     ├─ PlayScene.cpp
+│     ├─ ShopScene.h
+│     └─ ShopScene.cpp
+│
+└─ Resource
+   └─ Images
+      └─ README.md
+```
