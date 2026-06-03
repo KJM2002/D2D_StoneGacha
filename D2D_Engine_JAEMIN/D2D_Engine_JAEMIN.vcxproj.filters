@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4B04-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4C08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{75A1FA75-4A8D-4C8E-AB10-364CE4797B18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core">
+      <UniqueIdentifier>{D46BB2E0-0331-4892-BC27-7F2BFA8FD59D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Render">
+      <UniqueIdentifier>{9C0DD972-03EB-42B9-A3C9-39C4BF99F178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Scene">
+      <UniqueIdentifier>{C5F3D0DF-13D5-4411-9F48-98D5C2D2D6A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Object">
+      <UniqueIdentifier>{89E4495E-087F-4E4B-B09B-F3E93889F63D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{A6BAF5C4-49C1-4182-B433-12A1BFD84B04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Data">
+      <UniqueIdentifier>{17145EFE-B1A4-4ED9-9036-FE53564D7E76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\System">
+      <UniqueIdentifier>{7C23289D-F6EA-4E7A-AD12-E8C2E46E44D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Scene">
+      <UniqueIdentifier>{65566337-F8D8-4622-9A79-B295EFD5B091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{DF40DF2A-B665-4456-9B47-76C7E0AE4A3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Images">
+      <UniqueIdentifier>{60777852-4C6D-4E9A-9B5F-EC9F604EF3CB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="D2D_Engine_JAEMIN.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\GameApp.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Render\D2DRenderer.h">
+      <Filter>Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Scene\Scene.h">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Object\GameObject.h">
+      <Filter>Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\StoneGachaGame.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\Data\GameData.h">
+      <Filter>Content\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\System\GachaSystem.h">
+      <Filter>Content\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\Scene\TitleScene.h">
+      <Filter>Content\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\Scene\PlayScene.h">
+      <Filter>Content\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\Scene\ShopScene.h">
+      <Filter>Content\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\GameApp.cpp">
+      <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Render\D2DRenderer.cpp">
+      <Filter>Engine\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Object\GameObject.cpp">
+      <Filter>Engine\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\StoneGachaGame.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\System\GachaSystem.cpp">
+      <Filter>Content\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\Scene\TitleScene.cpp">
+      <Filter>Content\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\Scene\PlayScene.cpp">
+      <Filter>Content\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\Scene\ShopScene.cpp">
+      <Filter>Content\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D2D_Engine_JAEMIN.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="D2D_Engine_JAEMIN.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\Images\README.md">
+      <Filter>Resource\Images</Filter>
+    </None>
+  </ItemGroup>
+</Project>
